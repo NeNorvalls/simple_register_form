@@ -2,10 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
   }
+  h1 {
+    margin: 3rem auto;
+    
+    text-align: center;
+  }
   form {
     max-width: 400px;
     margin: auto;
-    margin-top: 5rem;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -50,4 +54,12 @@ body {
   }
   .form-section {
     margin-bottom: 15px;
+  }
+
+footer p {
+    bottom: 0;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
   }
